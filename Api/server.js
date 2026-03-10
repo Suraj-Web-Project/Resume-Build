@@ -12,7 +12,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "https://resume-build.vercel.app",
+    origin: "https://resume-build-4itc.vercel.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
